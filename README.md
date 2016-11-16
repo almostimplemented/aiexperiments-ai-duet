@@ -38,6 +38,12 @@ The back-end consists of a [Flask](http://flask.pocoo.org/) server, [TensorFlow]
 
 First install [TensorFlow](https://www.tensorflow.org/versions/master/get_started/os_setup.html). 
 
+Next, install Magenta. You can use their automated if on OS X or Ubuntu:
+```
+curl https://raw.githubusercontent.com/tensorflow/magenta/master/magenta/tools/magenta-install.sh > /tmp/magenta-install.sh
+bash /tmp/magenta-install.sh
+```
+
 To install the rest of the back-end requirements (make sure you have python and [pip](https://pip.pypa.io/en/stable/installing/) installed):
 
 ```bash
